@@ -679,7 +679,7 @@ body.nav-active { overflow: hidden; }
 
 .project-card .card-title:is(:hover, :focus-visible) { color: var(--violet-blue-crayola); }
 
-.project-card .card-text { margin-block: 16px 20px; }
+.project-card .card-text { margin-block: 5px 4px; }
 
 .project-card .card-meta-list {
   display: flex;
@@ -1101,7 +1101,7 @@ body.nav-active { overflow: hidden; }
    * PROJECT
    */
 
-  .project .grid-list { grid-template-columns: repeat(3, 1fr); align-content: center; }
+  .project .grid-list { grid-template-columns: repeat(3, 450px); align-content: center; }
 
 
 
