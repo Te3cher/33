@@ -261,7 +261,8 @@ body.nav-active { overflow: hidden; }
 
 .grid-list {
   display: grid;
-  gap: 25px;
+  gap: 51px;
+  justify-content: center;
 }
 
 .w-100 { width: 100%; }
@@ -497,7 +498,7 @@ body.nav-active { overflow: hidden; }
 .service .section-title { margin-block-end: 54px; }
 
 .service-card {
-  padding: 40px;
+  padding: 0px;
   box-shadow: var(--shadow-2);
   border-radius: var(--radius-6);
 }
@@ -846,7 +847,7 @@ body.nav-active { overflow: hidden; }
 
   .container { max-width: 720px; }
 
-  .grid-list { grid-template-columns: 1fr 1fr; }
+  .grid-list { grid-template-columns: 4fr 13fr; }
 
 
 
@@ -1043,6 +1044,17 @@ body.nav-active { overflow: hidden; }
 
 
 
+/**
+ * Amr Text
+ */
+ 
+.Amrtxt{
+    text-align: left;
+    direction: ltr; 
+    padding-left: 10px;
+
+}
+
 
 
 /**
@@ -1071,7 +1083,7 @@ body.nav-active { overflow: hidden; }
    * SERVICE
    */
 
-  .service .grid-list { grid-template-columns: repeat(4, 1fr); }
+  .service .grid-list { grid-template-columns: repeat(2, 330px); }
 
 
 
@@ -1089,7 +1101,7 @@ body.nav-active { overflow: hidden; }
    * PROJECT
    */
 
-  .project .grid-list { grid-template-columns: repeat(3, 1fr); }
+  .project .grid-list { grid-template-columns: repeat(3, 1fr); align-content: center; }
 
 
 
